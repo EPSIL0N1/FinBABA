@@ -2,12 +2,16 @@ import React, { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { FiArrowUpRight } from "react-icons/fi";
 import "./css_files/ey_features_font_edit.css"
+import img1 from "/public/additional_content_images/expense_tracking.webp"
+import img2 from "/public/additional_content_images/finance_education.webp"
+import img3 from "/public/additional_content_images/peronalised_insights.webp"
+import img4 from "/public/additional_content_images/partner.webp"
 
 export const Additional_Content = () => {
   return (
     <div className="bg-black" style={{zIndex : "5"}}>
       <TextParallaxContent
-        imgUrl="../public/additional_content_images/expense_tracking.webp"
+        imgUrl={img1}
         subheading="Track your finances"
         heading="Daily Expense Tracker"
       >
@@ -17,7 +21,7 @@ export const Additional_Content = () => {
         />
       </TextParallaxContent>
       <TextParallaxContent
-        imgUrl="../public/additional_content_images/finance_education.webp"
+        imgUrl={img2}
         subheading="Learn Finance the Easy Way"
         heading="Financial Education"
       >
@@ -27,7 +31,7 @@ export const Additional_Content = () => {
         />
       </TextParallaxContent>
       <TextParallaxContent
-        imgUrl="../public/additional_content_images/peronalised_insights.webp"
+        imgUrl={img3}
         subheading="Personalized Insights"
         heading="Investment Analysis"
       >
@@ -37,7 +41,7 @@ export const Additional_Content = () => {
         />
       </TextParallaxContent>
       <TextParallaxContent
-        imgUrl="../public/additional_content_images/partner.webp"
+        imgUrl={img4}
         subheading="Build a Support Network"
         heading="Community & Partners"
       >
