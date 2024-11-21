@@ -1,0 +1,22 @@
+.ey_feature_section_horizontal_wrap_top, .ey_feature_section_horizontal_wrap_bottom{
+    height: 50vh;
+    background-color: black;
+    position: sticky;
+    top: 0;
+}
+
+.ey_feature_section_h_wrap_top_title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 8rem;
+    color: white;
+    font-family: "Funnel Display", sans-serif;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-weight: 600;
+}
+
+
+

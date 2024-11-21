@@ -1,0 +1,33 @@
+.ey_horizontalscroll_feature_item {
+    /* border: 2px solid red; */
+    width: max-content; /* Adjusted for better sizing */
+    height: max-content;
+    padding-top: 5rem;
+
+}
+
+.ey_horizontalScrollingcarousel_container {
+    background-color: black;
+    height: 600vh; /* This defines the scrolling height */
+    /* position: sticky; */
+    /* top: 0; */
+}
+
+.ey_horizontalscroll_content_container {
+    height: max-content;
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    overflow: hidden; /* Keeps the vertical scrolling intact */
+    background-color: black;
+}
+
+.ey_horizontalscroll_features {
+    display: flex; 
+    gap: 4vw; 
+    padding: 0 4rem;
+    width: max-content;
+    height: max-content;
+}

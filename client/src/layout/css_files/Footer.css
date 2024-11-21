@@ -1,0 +1,16 @@
+
+#ey_footer_section{
+    /* border: 2px solid green; */
+    position: relative;
+    left: 0;
+    background: black;
+}
+
+
+#ey_footer_header{
+    font-size: 8rem;
+    color: white;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 2rem;
+}
