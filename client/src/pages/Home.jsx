@@ -1,5 +1,5 @@
 import HeroSection from '../layout/Home_sections/HeroSection'
-import Navbar from '../layout/navbar'
+import Navbar from '../layout/Navbar'
 import AboutUsSection from '../layout/Home_sections/AboutUsSection'
 import React, { useState } from 'react'
 import Preloader from './Preloader'
