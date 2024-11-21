@@ -5,6 +5,12 @@ import "./css_files/Footer.css"
 import "./css_files/ey_features_font_edit.css"
 import "./css_files/Feature_Horizontal_scroll_wrap.css"
 import { useInView } from "framer-motion";
+import img1 from "/public/footer_images/normal_expense.webp"
+import img2 from "/public/footer_images/clients.webp"
+import img3 from "/public/footer_images/portfolio.webp"
+import img4 from "/public/footer_images/girl_jumping.webp"
+import img5 from "/public/footer_images/fun.webp"
+
 
 const animationStyle = (isInView) => ({
   opacity: isInView ? 1 : 0,
@@ -29,31 +35,31 @@ export const Home_Footer = () => {
             <Link
               heading="About"
               subheading="Learn what we do here"
-              imgSrc="../public/footer_images/normal_expense.webp"
+              imgSrc={img1}
               href="#"
             />
             <Link
               heading="Clients"
               subheading="We work with great people"
-              imgSrc="../public/footer_images/clients.webp"
+              imgSrc={img2}
               href="#"
             />
             <Link
               heading="Portfolio"
               subheading="Our work speaks for itself"
-              imgSrc="../public/footer_images/portfolio.webp"
+              imgSrc={img3}
               href="#"
             />
             <Link
               heading="Careers"
               subheading="We want cool people"
-              imgSrc="../public/footer_images/girl_jumping.webp"
+              imgSrc={img4}
               href="#"
             />
             <Link
               heading="Fun"
               subheading="Incase you're bored"
-              imgSrc="../public/footer_images/fun.webp"
+              imgSrc={img5}
               href="#"
             />
           </div>
